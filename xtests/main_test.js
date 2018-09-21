@@ -10,6 +10,7 @@ function test(block, done) {
     if (!error && response.statusCode == 200) {
       done(body == 'hello world');
     }
+    done(false);
   });
 }
 
