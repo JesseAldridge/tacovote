@@ -1,0 +1,137 @@
+What is the purpose?
+To create a Reddit like site, but better.
+Probably won't be able to get users
+Build a reddit extension
+Build something like the Chinese site Lydia told me about
+Auto seed the site with content
+From Reddit
+
+Does something else have higher priority?
+no
+
+What is the first step?  second?
+start building the site
+look at what could be possible from a critter approach
+repeat
+maybe I'll decide critter is a bad idea
+the steps for the site itself:
+add a way to post articles
+add a way to vote
+including taco vote
+provide personalized recommendations based on this info
+oraculist? nah
+
+How are you going to test this?
+will use myself
+
+How is this going to work in production?
+just like reddit
+
+How can we divide up the work?
+i can do it
+
+What are the input formats?
+website, so clicks and stuff
+links from reddit
+user submitted content maybe later
+
+What are the output formats?
+a web page
+selected links
+
+Is this change going to break existing processes?
+no existing process
+
+Is there an easier way?  (avoid coding)
+people login with their reddit account
+their upvoted articles are pulled in
+they mark their special favorites
+not much easier
+
+Is it worth it?
+way to test critter possibilities
+way to consume internet content
+
+Can I adapt something that already exists?
+kind of what i'm doing with critter
+don't know what happened to tacovote
+
+Do I have enough time to see it through to completion?
+yeah
+unless I end up working for Aidan
+
+Can I preempt any blockers?
+no blockers
+
+Is there anyone I can ask for advice?
+not that i can think of
+should talk to tomalsky later
+
+What are the risks?
+nobody wants it
+reddit shows people want contenet
+nobody is willing to vote
+should be pretty easy to do
+requires users to power the personalized recs
+could get users by stealing reddit content?
+is that legal?
+yeah it's just an aggregator
+
+How can we track usage?
+Add logging with timestamps
+
+Make sure everyone knows what they are doing
+just me
+
+How are we going to integrate with other systems?
+scrape reddit
+figure out critter
+no other systems
+
+Are there concurrency issues?
+two people vote at the same time?
+seems pretty trivial to handle
+
+How could this be done faster?
+don't build critter
+reddit is already open source
+but very complicated
+oh that's an old version
+
+Do you know what all the terms mean?
+yes
+
+What are the edge cases?
+lots of votes
+no votes
+nbd
+divide by zero in personalized recs
+hard drive fills up
+nbd
+
+Can you enable ops to drive the content?
+no ops
+
+Are any significant events coming up?
+nope
+
+Get design reviewed
+no one to review
+
+Is product ok with the plan?
+no product
+
+Create a diagram
+always
+
+Are we following the spec exactly?
+no spec
+
+Do I have a fast feedback loop?
+yes
+
+Is anyone else working on the same thing?
+no
+
+Is this legal?
+yes
