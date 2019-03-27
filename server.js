@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
 });
 
 const hostname = '127.0.0.1';
-const port = process.argv[2] || 3000;
+const port = parseInt(process.argv[2]) || 3000;
 
 server.listen(port, hostname, () => {
   console.log(`Server running at http://${hostname}:${port}/`);
